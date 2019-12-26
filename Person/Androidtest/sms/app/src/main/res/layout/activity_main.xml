@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--用户密码的修改-->
+    <TextView
+        android:id="@+id/et_oldPwd"
+        android:hint="原密码:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_newPwd"
+        android:hint="新密码:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_makeSurePwd"
+        android:hint="确认密码:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_fixPwd"
+        android:text="finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--身体指标-->
+    <EditText
+        android:id="@+id/et_userHeight"
+        android:hint="身高:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_userWeight"
+        android:hint="体重:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="BIM:"
+        android:id="@+id/btn_userBIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_userBIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--保存心率值到数据库-->
+    <Button
+        android:id="@+id/btn_saveHeart"
+        android:text="保存心率值到数据库"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
