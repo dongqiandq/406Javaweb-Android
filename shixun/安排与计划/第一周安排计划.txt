@@ -1,0 +1,29 @@
+链接：https://space.dingtalk.com/s/gwHOAaGhawLOIzArCwPaACBhYjRmZGZlNmNiN2Q0N2RjYjU3ZGExM2Q0ODI2YzAwOQ 密码: 4Wak
+
+https://space.dingtalk.com/s/gwHOAbCS9ALOIzArCwPaACBmZDc3OGY3M2VkNjQ0MGQ1YTA2MWIxNGYyYzRmZWNmNg 密码: 7vQg
+
+（1）本周开发目标：
+前端：实现一部分的界面
+后端：数据库设计，服务器端建包等基本任务和一些业务逻辑的实现
+（2）任务分工：
+刘新宇：底部tab栏及故事界面框架
+董倩：数据库设计，服务器端建包等基本任务，用户的登录和注册
+候柳柳：换头像（相册选择和拍照），故事的浏览和点烛
+潘智晓：亲友界面布局，列表显示和详情页展示
+何子珍：我的页面展示，故事页面顶部tab栏
+（3）目标完成情况：
+以上每个人的分工基本完成
+
+（4）组员完成情况：
+刘新宇：底部tab栏和故事页里的刷新
+董倩：数据库设计，服务器端建包等基本任务，用户的登录和注册
+候柳柳：换头像（相册选择和拍照），故事的浏览和点烛
+潘智晓：亲友界面布局listview，列表显示详情页和点赞更换图片
+何子珍：我的页面展示，故事页面顶部tab栏
+
+下周目标：
+继续完善上周的功能，基本完成界面流畅跳转和大致实现，具体详细计划会在下周一商定
+
+
+
+

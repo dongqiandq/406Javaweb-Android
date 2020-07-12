@@ -1,0 +1,22 @@
+https://space.dingtalk.com/s/gwHOAcbvqgLOIzArCwPaACAxMTgxZTYyYTJiNzk0MjU0OTc3ZDdlNmEzMTEwMGNmZg 密码: cAhL
+
+https://space.dingtalk.com/s/gwHOAdKzGgLOIzArCwPaACA2ZTJlYjNiODY5ODI0NGU3OGQ4ZGJjODE4NDUzOWQ3Mw 密码: 36cW
+
+（1）本周开发目标：
+整合并继续完善前端界面
+（2）任务分工：
+董倩：亲友的信息更改保存到数据库
+何子珍：完成登录注册界面的编写
+候柳柳：足迹和感动的后端实现
+刘新宇：故事中listview的实现，整合子珍的部分界面
+潘智晓：评论的添加和展示，最新评论的显示全部完成
+（3）目标完成情况：
+以上每个人的分工基本完成
+（4）组员完成情况：
+董倩：亲友的信息更改保存到数据库
+何子珍：登录出现问题，尚未解决
+候柳柳：足迹和感动的后端实现
+刘新宇：故事中listview的实现，整合子珍的部分界面
+潘智晓：评论的添加和展示，最新评论的显示全部完成
+下周目标：
+继续完善上周的功能，前端完成整合

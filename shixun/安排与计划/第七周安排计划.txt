@@ -1,0 +1,16 @@
+https://space.dingtalk.com/s/gwHOAfdq0gLOIzArCwPaACA3MTAyZTQ3MDAxZWM0MzI0OGY5MjhiY2FjZWMxMDRhZA 密码: Sepu
+https://space.dingtalk.com/s/gwHOAftEAwLOIzArCwPaACA3YWMyMzEyY2YwOWM0MjRjOWI4YzNlNTZiNDYzNGNmNg 密码: XReY
+
+候柳柳：评论完成，评论的点赞，添加评论，我的忘记密码，重置密码
+（1）本周开发目标：
+后端的大量开发，候柳柳和董倩完成一块tabhost全部内容
+（2）任务分工：
+候柳柳：评论完成，评论的点赞，添加评论，我的忘记密码，重置密码
+董倩：实现“名人馆”的编写，包括展示，创建名人馆等等业务逻辑的实现
+（3）目标完成情况：
+以上分工基本完成
+（4）组员完成情况：
+候柳柳：评论完成，评论的点赞，添加评论，我的忘记密码，重置密码
+董倩：实现“名人馆”的编写，包括展示，创建名人馆等等业务逻辑的实现
+下周目标：
+完成最终整合并展示

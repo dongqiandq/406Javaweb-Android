@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dell.miss">
+
+    <permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme."
+        android:largeHeap="true"
+        android:hardwareAccelerated="false">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name=".Story"></activity>-->
+        <activity android:name=".StoryDetailsActivity"></activity>
+        <activity android:name=".StoryNoTalkActivity"></activity>
+        <activity android:name=".StoryTalkActivity"></activity>
+        <activity android:name=".StoryAddTalkActivity"></activity>
+        <activity android:name=".FriendQinyouListDetail" />
+        <activity android:name=".FriendOldphotoActivity" />
+        <activity android:name=".FriendNophotoActivity" />
+        <activity android:name=".FriendNorecallActivity" />
+        <activity android:name=".FriendRecallActivity" />
+        <activity android:name=".FriendRecallItemDetailActivity" />
+        <activity android:name=".FriendAddhuainianActivity" />
+        <activity android:name=".FriendNoHuainianmessageActivity" />
+        <activity android:name=".FriendAllhuainianActivity" />
+        <activity android:name=".FriendAddrecallActivity" />
+        <activity android:name=".FriendAddqinyouActivity" />
+        <!-- 合的时候要加上 -->
+        <!-- <activity android:name=".CelebrityActivity"></activity> -->
+        <activity android:name=".CelebrityDetailActivity" />
+        <activity android:name=".CelebrityOldphotoActivity" />
+        <activity android:name=".CelebrityNoOldphotoActivity" />
+        <activity android:name=".CelebrityNoRecallActivity" />
+        <activity android:name=".CelerityRecallActivity" />
+        <activity android:name=".CelebrityNoliuyanActivity" />
+        <activity android:name=".CelebrityAllliuyanActivity" />
+        <activity android:name=".CelebrityAddliuyanActivity"></activity>
+
+        <activity android:name=".PersonEditActivity"></activity>
+        <activity android:name=".MineNameActivity"></activity>
+        <activity android:name=".MineAddressActivity"></activity>
+
+        <activity android:name=".MessageActivity"></activity>
+        <activity android:name=".FlowerActivity"></activity>
+        <activity android:name=".TouchActivity"></activity>
+        <activity android:name=".TouchActivity1"></activity>
+        <activity android:name=".FootActivity"></activity>
+        <activity android:name=".RecallActivity"></activity>
+        <activity android:name=".ZhuiyiActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".ConcreteLoginActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".SetActivity"></activity>
+        <activity android:name=".MineSafeSetActivity"></activity>
+        <activity android:name=".MineWordSetActivity"></activity>
+        <activity android:name=".MineAboutActivity"></activity>
+        <activity android:name=".HelpActivity"></activity>
+
+        <activity android:name=".WordForgetActivity"></activity>
+        <activity android:name=".WordYanZhengActivity"></activity>
+        <activity android:name=".MineResetActivity"></activity>
+    </application>
+
+</manifest>

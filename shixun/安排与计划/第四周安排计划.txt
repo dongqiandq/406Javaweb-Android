@@ -1,0 +1,23 @@
+https://space.dingtalk.com/s/gwHOAdT_9gLOIzArCwPaACBlMjE3OThjM2E5Mzg0YWYxOTQ3N2E1NDM2ZjYzNDcyNw 密码: BvDD
+
+https://space.dingtalk.com/s/gwHOAd0NSALOIzArCwPaACBjMTMwMTg0YzE4NzI0NjhlYTE3OTFlOWQzM2E5Yjk2Nw 密码: 4Rqu
+
+（1）本周开发目标：
+整合并继续完善前端界面
+（2）任务分工：
+刘新宇：完善界面，整合一部分
+潘智晓：完善界面，整合一部分
+何子珍：完善界面，整合一部分
+候柳柳：用户编辑资料，修改姓名，性别等用户信息
+董倩：名人馆信息的查询
+（3）目标完成情况：
+以上每个人的分工基本完成
+（4）组员完成情况：
+刘新宇：完善界面，整合一部分
+潘智晓：完善界面，整合一部分
+何子珍：完善界面，整合一部分
+候柳柳：用户编辑资料，修改姓名，性别等用户信息
+董倩：名人馆信息的查询
+下周目标：
+前端完成整合以后，加强后端开发力度
+

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--未登录-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f2321">
+
+    <RelativeLayout
+        android:id="@+id/rl_mine"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+        <ImageView
+            android:id="@+id/img_message"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message11"
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_personmes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:layout_marginBottom="5dp">
+
+        <!--用户头像开始默认图，未登录点击跳转到登录，登录后点击显示大图-->
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/unlogin" />
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="点击登录"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/btn_click"
+                android:text="登录后查看更多"
+                android:textColor="#707070"
+                android:textSize="16sp" />-->
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lv_mine"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:background="#707070"
+            android:id="@+id/rl_gandong"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/img_gandong"
+                android:layout_width="40dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:layout_height="40dp"
+                android:src="@drawable/gd11"/>
+            <TextView
+                android:id="@+id/tv_gandong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:text="感动"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_below="@id/img_gandong"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#707070"
+            android:id="@+id/rl_zuji"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/img_zuji"
+                android:layout_width="40dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:layout_height="40dp"
+                android:src="@drawable/zuji11"/>
+            <TextView
+                android:id="@+id/tv_zuji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="足迹"
+                android:layout_marginTop="3dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_below="@id/img_zuji"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_zhuiyi"
+            android:background="#707070"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/img_zhuiyi"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zy111" />
+            <TextView
+                android:id="@+id/tv_zhuiyi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="追忆"
+                android:layout_marginTop="3dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_below="@id/img_zhuiyi"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_hualan"
+            android:background="#707070"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/img_hualan"
+                android:layout_width="40dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:layout_height="40dp"
+                android:src="@drawable/gift11"/>
+            <TextView
+                android:id="@+id/tv_hualan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="花篮"
+                android:layout_marginTop="3dp"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:layout_below="@id/img_hualan"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_geren"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:id="@+id/tv_geren"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="个人信息"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+            <ImageView
+                android:id="@+id/img_right"
+                android:src="@drawable/next1"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#707070">
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/rl_shezhi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:id="@+id/tv_shezhi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="设置"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+            <ImageView
+                android:id="@+id/img_right1"
+                android:src="@drawable/next1"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#707070">
+        </View>
+
+        <RelativeLayout
+            android:id="@+id/rl_help"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:id="@+id/tv_help"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="帮助与反馈"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+            <ImageView
+                android:id="@+id/img_right2"
+                android:src="@drawable/next1"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#707070">
+        </View>
+
+    </LinearLayout>
+
+</LinearLayout>

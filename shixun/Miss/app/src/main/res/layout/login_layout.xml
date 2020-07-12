@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="怀思"
+            android:layout_centerInParent="true"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_above="@id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <TextView
+            android:layout_above="@id/view1"
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每一个不曾起舞的日子"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="赶在一切消失前"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"/>
+        <View
+            android:layout_above="@id/tv3"
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+        <TextView
+            android:layout_above="@id/view2"
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="都是对生命的辜负"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <View
+            android:id= "@+id/strut"
+            android:layout_width= "0dp"
+            android:layout_height= "0dp"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:id="@+id/tv_common"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="游客进入"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:scaleType="fitStart"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:src="@drawable/next2"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_above="@id/tv_common"
+            android:layout_marginBottom="6dp"
+            android:id="@+id/btn_denglu"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/strut"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:textSize="23sp"
+            android:text="登录"/>
+
+        <Button
+            android:layout_toRightOf="@id/btn_denglu"
+            android:layout_above="@id/tv_common"
+            android:layout_marginBottom="6dp"
+            android:layout_alignLeft="@id/strut"
+            android:layout_alignParentRight="true"
+            android:background="#FF6633"
+            android:id="@+id/btn_zhuce"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF"
+            android:text="注册"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

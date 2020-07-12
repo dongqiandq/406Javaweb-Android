@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textview_1" type="id">tv_name</item>
+    <item name="textview_2" type="id">tv_time</item>
+    <item name="textview_3" type="id">tv_neirong</item>
+</resources>

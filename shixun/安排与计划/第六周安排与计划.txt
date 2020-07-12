@@ -1,0 +1,17 @@
+https://space.dingtalk.com/s/gwHOAe5O1wLOIzArCwPaACBlODFlNjkxY2YxNDU0MjA2ODAzOTRhMDQ4MTdlYzQzZA 密码: ScAc
+
+https://space.dingtalk.com/s/gwHOAfQvyQLOIzArCwPaACBkZWZhNjhkMjc5OTA0ZmQ5YmYyYThmM2M2OGYzODkwMQ 密码: HreA
+（1）本周开发目标：
+后端的大量开发，候柳柳和董倩完成一块tabhost全部内容
+（2）任务分工：
+候柳柳：实现“故事”编写，包括展示，点蜡烛等等业务逻辑的实现
+董倩：实现“亲友”的编写，包括展示，创建亲友等等业务逻辑的实现
+（3）目标完成情况：
+以上分工基本完成
+（4）组员完成情况：
+候柳柳：实现“故事”编写，包括展示，点蜡烛等等业务逻辑的实现
+董倩：实现“亲友”的编写，包括展示，创建亲友等等业务逻辑的实现
+下周目标：
+董倩完成“名人馆”部分的实现
+候柳柳完成“我的”部分的实现
+争取后端代码基本完成

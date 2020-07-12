@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/gandong_item"
+    android:background="@drawable/item_edge"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/img_gushi"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="15dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_title"
+            android:textSize="18sp"
+            android:maxLines="3"
+            android:textColor="#FFFFFF"/>
+
+        <LinearLayout
+            android:id="@+id/lv_about"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginRight="5dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_yuedunum"
+                android:textSize="12sp"
+                android:text="123"
+                android:textColor="#1f2321"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:id="@+id/tv_yuedu"
+                android:text="阅读"
+                android:textSize="12sp"
+                android:textColor="#1f2321"/>
+
+            <ImageView
+                android:id="@+id/img_dian"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dian"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:id="@+id/tv_pinglunnum"
+                android:textSize="12sp"
+                android:text="2"
+                android:textColor="#1f2321"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:id="@+id/tv_pinglun"
+                android:text="评论"
+                android:textSize="12sp"
+                android:textColor="#1f2321"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_null" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+https://space.dingtalk.com/s/gwHOAeM7AALOIzArCwPaACA1MDFiZDkwZjU1Yzc0ZjAwYWE1MzAwNTFlYjZhOWUyMw 密码: SaU9
+
+https://space.dingtalk.com/s/gwHOAeeQoQLOIzArCwPaACA5MmY4MTk2ZTYyYmY0ZTI4OTEzNTdmNTVmN2IzNWNiZg 密码: dkx1
+
+（1）本周开发目标：
+前端界面整合完成，开始后端的大量开发
+（2）任务分工：
+刘新宇：整合界面
+潘智晓：整合界面
+何子珍：整合界面
+候柳柳：实现部分“故事”，“我的”的编写
+董倩：实现部分“名人馆”和“亲友”的编写
+（3）目标完成情况：
+以上每个人的分工基本完成
+（4）组员完成情况：
+刘新宇：整合界面
+潘智晓：整合界面
+何子珍：整合界面
+候柳柳：实现部分“故事”，“我的”的编写
+董倩：实现部分“名人馆”和“亲友”的编写
+下周目标：
+前端完成整合以后，加强后端开发力度

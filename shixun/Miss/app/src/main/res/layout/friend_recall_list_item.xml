@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:id="@+id/ll_recallItem"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/recall_item_style">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:id="@+id/tv_recallTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您是个伟大的医生"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_recallTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_alignParentRight="true"
+                android:textColor="#fff"
+                android:text="2020-04-04 21:25:19"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_recallDescription"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:lines="2"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间过的真快，从疫情开始，转眼就过了四个月了，您也离开了四个月，因为您疫情才..."
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</LinearLayout>
